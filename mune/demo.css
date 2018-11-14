@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+div{
+    font-size: 14px;
+}
+
+.head
+{
+    background-color: rgba(247, 214, 140, 0.56);
+    height: 40px;
+}
+.widthAuto
+{
+    width: auto;
+}
+.mamber
+{
+    height: 40px;
+    width: 60px;
+    line-height: 40px;
+    float: right;
+    color: rgba(60,63,65,0.52);
+    background-color: bisque;
+    margin-right: 100px;
+    cursor: default;
+}
+
+
+
+ul{
+    padding: 0px;
+    margin: 0px;
+    float: right;
+    position: absolute;
+    top: 40px;
+    right: 100px;
+    display: none;
+}
+ul li{
+    width: 60px;
+    line-height: 30px;
+    list-style-type: none;
+    text-align: center;
+    background-color: bisque;
+    border-top:1px #FFFFFF dashed;
+    cursor: default;
+}
+
+ul li:hover{
+    color: #fff4cb;
+    background-color: #ff6625;
+}

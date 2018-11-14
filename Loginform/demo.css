@@ -1,0 +1,124 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+div{
+    font-size: 14px;
+}
+.hover:hover{
+    color: #ff6625;
+    cursor: default;
+}
+
+.head
+{
+    background-color: rgba(247, 214, 140, 0.56);
+    height: 40px;
+}
+.widthAuto
+{
+    width: auto;
+}
+
+
+
+.mamber
+{
+    height: 40px;
+    width: 60px;
+    line-height: 40px;
+    float: right;
+    color: rgba(60,63,65,0.52);
+
+    margin-right: 100px;
+    cursor: default;
+}
+
+
+
+
+ul{
+    padding: 0px;
+    margin: 0px;
+    float: right;
+    position: absolute;
+    top: 40px;
+    right: 100px;
+    display: none;
+}
+ul li{
+    width: 60px;
+    line-height: 30px;
+    list-style-type: none;
+    text-align: center;
+    background-color: bisque;
+    border-top:1px #FFFFFF dashed;
+    cursor: default;
+}
+
+ul li:hover{
+    color: #fff4cb;
+    background-color: #ff6625;
+}
+.Login{
+    float: right;
+    height: 40px;
+    line-height: 40px;
+    margin-right: 40px;
+    color: rgba(60,63,65,0.52);
+    cursor: pointer;
+}
+.Login:hover{
+    color: #fff4cb;
+    background-color: #ff6625;
+
+}
+.LoginFrom{
+    width: 350px;
+    height: 250px;
+    border: 1px solid #ff6625;
+    position: absolute;
+    display: none;
+    z-index: 9999;
+    background-color: white;
+}
+
+.Lhead{
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 14px;
+    color: #ff6625;
+    background-color: #ebe5e8;
+    cursor: move;
+}
+
+
+
+div .Lhead div{
+    float: right;
+    height: 16px;
+    width: 16px;
+    margin-top: 7px;
+    margin-right: 7px;
+    background-image: url("x.png");
+    background-repeat: no-repeat;
+    cursor: default;
+}
+div img{
+
+}
+
+
+.screen{
+    top: 0px;
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    background-color: rgba(173, 170, 173, 0.3);
+    z-index: 9998;
+    display: none;
+
+
+}
